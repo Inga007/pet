@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+    
+
+    <header>
+        <div class="container">
+           <div class="topmenu">
+            
+          
+
+           </div>
+        </div>
+        <div class="header main_head">
+            <div class="container">
+                <div class="header-menu ">
+                    <div class="logo">
+                        <a href="index.html">
+                          <img src="image/logo.PNG" alt="logo">
+                        </a>
+                       
+                    </div>
+                
+                   
+                 
+    
+                        <div id="mySidenav" class="sidenav">
+                            <ul class="sideul">
+                                <li><a href="index.html" class="active">Գլխավոր</a></li>
+                                <li><a href="#build">Մեր Մասին</a></li>
+                                <li class="dropdown"><a class="dropdown-toggle" id="bLabel"  data-bs-toggle="dropdown" aria-expanded="false" href="#">Ծառայություններ</a>
+                                    <ul class="dropdown-menu mydrop" aria-labelledby="bLabel">
+                                        <a class="dropdown-item" href="#">Ծառայություններ</a>
+                                        <a class="dropdown-item" href="#">Ծառայություններ</a>
+                                    </ul>
+                                </li>
+                                <li class="dropdown"><a class="dropdown-toggle" id="bLabel"  data-bs-toggle="dropdown" aria-expanded="false" href="#">Նորություններ</a>
+                                    <ul class="dropdown-menu mydrop" aria-labelledby="bLabel">
+                                        <a class="dropdown-item" href="#">Նորություն</a>
+                                        <a class="dropdown-item" href="#">Նորություններ</a>
+                                    </ul>
+                                </li>
+                                <li><a href="#production">Կարիերա</a></li>
+                                <li><a href="#production">Գործընկերներ</a></li>
+                                <li><a href="#contact">Հետադարձ կապ</a></li>
+                              
+                                <li>
+                                    <div class="dropdown">
+                                        <a class="dropdown-toggle" id="dLabel"  data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img src="image/am.jpg" alt="am">
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="dLabel">
+                                            <a class="dropdown-item" href="#"><img src="image/en.svg" alt="en"></a>
+                                            <a class="dropdown-item" href="#"><img src="image/rus.jpg" alt="ru"></a>
+                                        </ul>
+                                      </div>
+                                </li>
+                              
+                        
+                        </ul>
+                        <div class="d-flex">
+                        <a class="menuBar mx-3" data-bs-toggle="offcanvas" href="#mobilemenu" role="button" aria-controls="offcanvasExample">
+                           <img src="image/menubl.png" alt="image">
+                        </a>
+                        <div class="dropdown menuBar">
+                            <a class="dropdown-toggle" id="dLabel"  data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="image/am.jpg" alt="am">
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dLabel">
+                                <a class="dropdown-item" href="#"><img src="image/en.svg" alt="en"></a>
+                                <a class="dropdown-item" href="#"><img src="image/rus.jpg" alt="ru"></a>
+                            </ul>
+                          </div>
+                        </div>
+                        </div>
+                   
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="mobilemenu" aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header">
+                        
+                          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                         
+                          <div class="dropdown mt-3">
+                            <div class="mobileList">
+                                <ul>
+                                    <li><a href="index.html" class="active">Գլխավոր</a></li>
+                                    <li><a href="#build">Մեր Մասին</a></li>
+                                    <li class="dropdown"><a class="dropdown-toggle" id="bLabel"  data-bs-toggle="dropdown" aria-expanded="false" href="#">Ծառայություններ</a>
+                                        <ul class="dropdown-menu mydrop" aria-labelledby="bLabel">
+                                            <a class="dropdown-item" href="#">Ծառայություններ</a>
+                                            <a class="dropdown-item" href="#">Ծառայություններ</a>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown"><a class="dropdown-toggle" id="bLabel"  data-bs-toggle="dropdown" aria-expanded="false" href="#">Նորություններ</a>
+                                        <ul class="dropdown-menu mydrop" aria-labelledby="bLabel">
+                                            <a class="dropdown-item" href="#">Նորություն</a>
+                                            <a class="dropdown-item" href="#">Նորություններ</a>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#production">Կարիերա</a></li>
+                                    <li><a href="#production">Գործընկերներ</a></li>
+                                    <li><a href="#contact">Հետադարձ կապ</a></li>
+
+                            
+                            </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </header>
+
+
+    <section>
+
+        <div class="">
+            <div class="banner">
+               
+                <div class="bannerSlide cont">
+                    <div class="playpause">
+                        <img id='btnPause' src="image/play.png" alt="play">
+                       
+                       
+                      </div>
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="image/banner1.jpg"  alt="image">
+                            <div class="carousel-caption d-none d-md-block ">
+                                
+                                <p>Some representative </p>
+                              </div>
+                          </div>
+                          <div class="carousel-item ">
+                            <img src="image/banner2.jpg"  alt="image">
+                            <div class="carousel-caption d-none d-md-block">
+                               
+                                <p>Some  placeholder </p>
+                              </div>
+                          </div>
+                          <div class="carousel-item ">
+                            <img src="image/banner6.jpg"  alt="image">
+                            <div class="carousel-caption d-none d-md-block">
+                               
+                                <p> content for the first slide.</p>
+                              </div>
+                          </div>
+                          
+                         
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<section>
+    <div class="container">
+        <div class="headings">
+            <h2>Ծառայություններ</h2>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+
+        <div class="service">
+            <div class="servicebox">
+                <a href="#">
+                <div class="serviceImg">
+                    <div class="forborder"> </div>
+                    <img src="image/service1.jpg" alt="imag">
+               
+                </div>
+          
+                <p>Lorem, ipsum dolor.</p>
+            </a>
+            </div>
+            <div class="servicebox">
+                <a href="#">
+                <div class="serviceImg">
+                    <div class="forborder"> </div>
+                    <img src="image/service2.jpg" alt="imag">
+               
+            </div>
+                <p>Lorem, ipsum dolor.</p>
+            </a>
+            </div>
+            <div class="servicebox">
+                <a href="#">
+                <div class="serviceImg">
+                    <div class="forborder"> </div>
+                    <img src="image/service3.jpg" alt="image">
+                </div>
+           
+                <p>Lorem, ipsum dolor.</p>
+            </a>
+            </div>
+            <div class="servicebox">
+                <a href="#">
+                <div class="serviceImg">
+                    <div class="forborder">  </div>
+                    <img src="image/service4.jpg" alt="image">
+              
+            </div>
+                <p>Lorem, ipsum dolor.</p>
+            </a>
+            </div>
+            <div class="servicebox">
+                <a href="#">
+                <div class="serviceImg">
+                    <div class="forborder">   </div>
+                    <img src="image/service5.jpg" alt="image">
+                </div>
+         
+                <p>Lorem, ipsum dolor.</p>
+            </div>
+            <div class="servicebox">
+                <a href="#">
+                <div class="serviceImg">
+                    <div class="forborder">  </div>
+                    <img src="image/service6.jpg" alt="image">
+              
+            </div>
+                <p>Lorem, ipsum dolor.</p>
+            </a>
+            </div>
+            <div class="servicebox">
+                
+                <a href="#">
+                <div class="serviceImg">
+                    <div class="forborder">  </div>
+                    <img src="image/service7.jpg" alt="image">
+                </div>
+          
+                <p>Lorem, ipsum dolor.</p>
+            </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="iframe">
+    
+       
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.279853859537!2d44.503916376901834!3d40.180585006958665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abcfc24d22059%3A0x678e79781e3e6610!2s10%20Amiryan%20St%2C%20Yerevan!5e0!3m2!1sen!2sam!4v1727801765642!5m2!1sen!2sam"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+</section>
+
+    <footer>
+        <div class="footer" id="contact">
+            <div class="container">
+                
+                <div class="footer-content">
+                <div class="foot_items">
+                <div class="svg_block ">
+                    <div class="footer_content">
+                        <img src="image/pin.svg" alt="img">
+                        <a href="https://maps.app.goo.gl/3XqBdbdHajtpjWcy7">Armenia. 0010. Yerevan. Amiryan Str., 10</a>
+                    </div>
+                </div>
+                <div class="svg_block ">
+                    <div class="footer_content">
+                        <img src="image/internet.png" alt="img">
+                        <a href="http://www.amiryanvet.am/"> www.amiryanvet.am</a>
+                    </div>
+                </div>
+               
+                  <div class="svg_block">
+                    <div class="footer_content">
+                        <img src="image/email.svg" alt="img">
+                        <a href="mailto:info@AmiryanVet.am"> Email: info@AmiryanVet.am </a>
+                    </div>
+                </div>
+                <div class="svg_block ">
+                    <div class="footer_content">
+                        <img src="image/time.png" alt="img">
+                        <p>Երկուշաբթի - Կիրակի 09:00-20:00
+                        </p>
+                    </div>
+                </div>
+                </div>
+                <div class="foot_items "> 
+                    <div class="logo">
+                        <a href="index.html">
+                          <img src="image/logo.PNG" alt="logo">
+                        </a>
+                       
+                    </div>
+                    <div class="svg_block">
+                        
+                        <div class="footer_content ">
+                            <a href="#" target="_blank"> <img src="image/facebookb.svg" alt="img"></a>
+                            <a href="#" target="_blank"> <img src="image/instagram.svg"  alt="img"></a>
+                            <a href="#" target="_blank"> <img src="image/telegram.svg" alt="img"></a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="foot_items">
+                <div class="svg_block">
+                    <div class="footer_content">
+                        <img src="image/mobile.svg" alt="img">
+                        <a href="tel:374-105-60119">Tel: (+374 10) 56 01 19;</a>
+                    </div>
+                </div>
+                <div class="svg_block">
+                    <div class="footer_content">
+                        <img src="image/telephone.png" alt="img">
+                        <a href="tel:374-915-60119">Tel: (+374 91) 56 01 19;</a>
+                    </div>
+                </div>
+                <div class="svg_block">
+                    <div class="footer_content">
+                        <img src="image/telephone.png" alt="img">
+                        <a href="tel:371-256-0119">Tel: (+371 2) 56 01 19;</a>
+                    </div>
+                </div>
+                <div class="svg_block">
+                    <div class="footer_content">
+                        <img  src="image/telephone.png" alt="img">
+                        <a href="tel:374-965-60119">Tel: (+374 96) 56 01 19;</a>
+                    </div>
+                </div>
+                <div class="svg_block">
+                    <div class="footer_content">
+                        <img src="image/telephone.png" alt="img">
+                        <a href="tel:374-985-60119">Tel: (+374 98) 56 01 19;</a>
+                    </div>
+                </div>
+                <div class="svg_block">
+                    <div class="footer_content">
+                        <img src="image/viber.svg" alt="img">
+                        <a href="viber://add?number=%2B37494560119"> Viber: (+374 94) 56 01 19</a>
+                    </div>
+                </div>
+                <div class="svg_block">
+                    <div class="footer_content">
+                        <img src="image/what.png" alt="img">
+                        <a href="https://api.whatsapp.com/send?phone=+37495551555"> Whatsapp: (+374 95) 56 01 19</a>
+                    </div>
+                </div>
+              
+              
+                </div>
+                </div>
+                <div class="divider"></div>
+                <div class="copy_r">
+                    <p class="copyright">Copyright &copy; <b class="year">  </b> <a  target="_blank" href="https://www.facebook.com/profile.php?id=61555985371610">Web Teems</a> Բոլոր իրավունքները պաշտպանված են</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+
+var carouselElement = document.getElementById("carouselExampleFade");
+  var carousel = new bootstrap.Carousel(carouselElement, {
+  	interval: 3000
+  });
+let playpause = document.getElementById("btnPause")
+playpause.addEventListener("click", function () {
+    if(playpause.getAttribute("src") === "image/pause.png"){
+       
+        carousel.cycle()
+        playpause.setAttribute("src", "image/play.png")
+ 
+    }
+   else if(playpause.getAttribute("src") ==="image/play.png"){
+        
+        carousel.pause();
+       playpause.setAttribute("src", "image/pause.png")
+      
+    }
+  
+ 
+})
+
+</script>
+</body>
+</html>
