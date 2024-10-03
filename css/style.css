@@ -479,11 +479,11 @@ html {
   .mobileList ul li a {
     font-size: 20px;
     font-weight: 600;
-    color: gray;
+    color: rgba(0, 0, 0, 0.7);
     text-decoration: none;
   }
   .mobileList ul li:hover a {
-    color: #007368;
+    color: #195676;
   }
   .carousel-item img {
     height: 500px;
@@ -497,7 +497,19 @@ html {
     position: relative !important;
     transform: translate3d(5px, 5px, 0px) !important;
     border: 0;
-    color: rgba(0, 0, 0, 0.8) !important;
+  }
+  .mobileList ul li:hover .mydrop a {
+    color: rgba(0, 0, 0, 0.7) !important;
+  }
+  .dropdown-menu.mydrop {
+    background-color: unset;
+  }
+
+  .offcanvas {
+    background-image: url("../image//pet.png");
+    background-size: 70% 60%;
+    background-repeat: repeat-y;
+    background-position: center;
   }
 }
 @media (max-width: 768px) {
